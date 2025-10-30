@@ -1,4 +1,4 @@
-import { LogOut, User, Settings } from 'lucide-react';
+import { LogOut, Settings } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 import { Link, useLocation } from 'react-router-dom';
 
