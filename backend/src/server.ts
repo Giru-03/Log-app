@@ -19,7 +19,7 @@ process.on('uncaughtException', (err: any) => {
 
 const app = express();
 app.use(cors({
-  origin: ["https://recipe-generator-navy.vercel.app", "http://localhost:5173"], // Adjust as needed
+  origin: ["https://log-app-nine.vercel.app", "http://localhost:5173"], // Adjust as needed
   credentials: true, // If you're using Authorization headers
 }));
 app.use(express.json());
