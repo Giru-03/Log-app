@@ -35,7 +35,7 @@ app.get('/health', (req, res) => {
 app.use(errorHandler);
 
 app.get("/", (req, res) => {
-  res.send("Recipe Generator API is running successfully! 👍");
+  res.send("API is running successfully! 👍");
 });
 
 export default app;
